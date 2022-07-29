@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "eso-es-como-todo",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Source files from Eso es como todo",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Daniel Calderón <daniel.calderon.portillo@gmail.com>",
   "dependencies": {
     "gatsby": "^4.19.2",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
@@ -21,7 +21,8 @@
     "prettier": "^2.7.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "podcast"
   ],
   "license": "0BSD",
   "scripts": {
@@ -31,13 +32,13 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$ACCESS_TOKEN@github.com/eso-es-como-todo/site.git"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/eso-es-como-todo/source"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/eso-es-como-todo/source/issues"
   }
 }
