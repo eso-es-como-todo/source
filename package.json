@@ -33,7 +33,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$ACCESS_TOKEN@github.com/eso-es-como-todo/site.git"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$ACCESS_TOKEN@github.com/eso-es-como-todo/site.git -b main"
   },
   "repository": {
     "type": "git",
