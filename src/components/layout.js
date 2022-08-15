@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
           fontSize: `var(--font-sm)`,
         }}
       >
-        © {new Date().getFullYear()} &middot; Eso es como todo
+        &copy; {new Date().getFullYear()} &middot; Eso es como todo
       </footer>
     </>
   )
