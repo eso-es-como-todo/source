@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 
+import "normalize.css";
 import "@fontsource/dangrek/400.css";
 import "./layout.css"
 

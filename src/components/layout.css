@@ -2,85 +2,6 @@
 
 }
 
-html {
-  -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
-  font: sans-serif;
-  overflow-y: scroll;
-}
-
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Dangrek", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  margin: 0;
-  word-wrap: break-word;
-}
-
-a {
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: 500;
-  text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
-}
-
-a:active,
-a:hover {
-  outline-width: 0;
-  text-decoration: none;
-}
-
-abbr[title] {
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
-  cursor: help;
-  text-decoration: none;
-}
-
-b,
-strong {
-  font-weight: inherit;
-  font-weight: bolder;
-}
-
-dfn {
-  font-style: italic;
-}
-
-h1 {
-  margin: 0;
-  margin-bottom: 3rem;
-  padding: 0;
-  letter-spacing: -0.01em;
-}
-
-img {
-  border-style: none;
-  max-width: 100%;
-}
-
-code,
-kbd,
-pre,
-samp {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-hr {
-  box-sizing: content-box;
-  overflow: visible;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding: 0;
-  background: rgba(0, 0, 0, 0.2);
-  border: none;
-  height: 1px;
-}
-
 * {
   box-sizing: inherit;
 }
@@ -91,6 +12,52 @@ hr {
 
 *:after {
   box-sizing: inherit;
+}
+
+html {
+  font-family: "Dangrek", Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dangrek", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+  text-decoration: none;
+}
+
+abbr[title] {
+  cursor: help;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  padding: 0;
+}
+
+img { 
+  max-width: 100%;
+}
+
+code,
+kbd,
+pre,
+samp {
+  line-height: inherit;
 }
 
 hgroup,
@@ -116,7 +83,6 @@ pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  font-size: 0.875rem;
   background: rgba(0, 0, 0, 0.04);
   overflow: auto;
   word-wrap: normal;
@@ -150,23 +116,6 @@ p {
   max-width: 680px;
 }
 
-code {
-  font-size: 0.875rem;
-}
-
-kbd {
-  font-size: 0.875rem;
-}
-
-samp {
-  font-size: 0.875rem;
-}
-
-abbr {
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
-  cursor: help;
-}
-
 acronym {
   border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
   cursor: help;
@@ -181,19 +130,4 @@ code {
 
 pre code {
   background: none;
-}
-
-code:before,
-code:after,
-tt:before,
-tt:after {
-  content: "\00a0";
-  letter-spacing: -0.2em;
-}
-
-pre code:before,
-pre code:after,
-pre tt:before,
-pre tt:after {
-  content: none;
 }
