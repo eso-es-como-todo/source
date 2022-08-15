@@ -98,7 +98,7 @@ const IndexPage = () => (
       </p>
     </div>
     <ul className={styles.list}>
-      {links.map(link => (
+      {links.map((link) => (
         <li key={link.url} className={styles.listItem}>
           <a
             className={styles.listItemLink}
