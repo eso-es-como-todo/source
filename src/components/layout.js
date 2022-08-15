@@ -28,18 +28,22 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Eso es como todo`} />
+      <div className="page">
+        <Header siteTitle={data.site.siteMetadata?.title || `Eso es como todo`} />
 
-      <main>{children}</main>
+        <main>
+          {children}
+        </main>
 
-      <footer
-        style={{
-          marginTop: `var(--space-5)`,
-          fontSize: `var(--font-sm)`,
-        }}
-      >
-        &copy; {new Date().getFullYear()} &middot; Eso es como todo
-      </footer>
+        <footer
+          style={{
+            marginTop: `var(--space-5)`,
+            fontSize: `var(--font-sm)`,
+          }}
+        >
+          &copy; {new Date().getFullYear()} &middot; Eso es como todo
+        </footer>
+      </div>
     </>
   )
 }

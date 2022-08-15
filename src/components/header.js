@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <h1>
-      Eso es como todo, el podcast
+  <header className="page__header">
+    <h1 className="page__title">
+      eso es como todo
     </h1>
   </header>
 )

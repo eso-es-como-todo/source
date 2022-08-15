@@ -7,7 +7,9 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-    <p>Sitio en construcción</p>
+    <div className="main__disclaimer">
+      <p>En septiembre se vienen cositas</p>
+    </div>
   </Layout>
 )
 
