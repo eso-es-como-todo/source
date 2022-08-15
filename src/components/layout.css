@@ -12,8 +12,8 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: "Dangrek", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   margin: 0;
   word-wrap: break-word;
 }
