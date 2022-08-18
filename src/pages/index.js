@@ -9,6 +9,13 @@ const IndexPage = () => (
 
     <div className="main__disclaimer">
       <p>En septiembre se vienen cositas</p>
+      <iframe style={{ borderRadius:"12" }}
+        src="https://open.spotify.com/embed/show/7KdIzvC8bKAD4MCo2dlu2O?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
   </Layout>
 )
