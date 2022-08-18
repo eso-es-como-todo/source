@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Eso es como todo`,
+    description: `Podcast de entretenimiento. Cada quince días un miembro del podcast plantea un tema y hablamos sobre él, desde una perspectiva divertida, ácida, absurda y mordaz.`,
+    author: `@EsoEsComoToders`,
+    siteUrl: `https://esoescomotodo.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
