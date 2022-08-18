@@ -78,7 +78,9 @@ const Layout = ({ children }) => {
 
           <div className="footer__twitter">
             <a href="https://twitter.com/EsoEsComoToders"
-              rel="me">
+              rel="me"
+              title="Twitter de Eso es como todo"
+              aria-label="Twitter de Eso es como todo">
               <span className="footer__twitterName">EsoEsComoToders</span>
             </a>
           </div>
