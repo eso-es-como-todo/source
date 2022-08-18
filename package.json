@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Daniel Calderón <daniel.calderon.portillo@gmail.com>",
   "dependencies": {
+    "@fontsource/dangrek": "^4.5.10",
     "gatsby": "^4.19.2",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-image": "^2.19.0",
@@ -13,6 +14,7 @@
     "gatsby-plugin-sharp": "^4.19.0",
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
@@ -29,7 +31,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
