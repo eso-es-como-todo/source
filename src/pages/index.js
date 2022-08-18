@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Inicio" />
 
     <div className="main__disclaimer">
       <p>En septiembre se vienen cositas</p>
@@ -13,6 +13,6 @@ const IndexPage = () => (
   </Layout>
 )
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Inicio" />
 
 export default IndexPage
