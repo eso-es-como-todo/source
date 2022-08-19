@@ -86,7 +86,7 @@ const Layout = ({ children }) => {
           </div>
         </footer>
       </div>
-      <p class="footer__copyright">
+      <p className="footer__copyright">
         &copy; {new Date().getFullYear()} &middot; Eso es como todo
       </p>
     </>
