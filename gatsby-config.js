@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Eso es como todo`,
-    description: `Podcast de entretenimiento. Cada quince días un miembro del podcast plantea un tema y hablamos sobre él, desde una perspectiva divertida, ácida, absurda y mordaz.`,
+    description: `Podcast de entretenimiento. Cada quince días hablamos de un tema diferente, desde una perspectiva divertida, ácida, absurda y mordaz.`,
     author: `Daniel Calderón, Jose A. Pérez, Abel Sutilo`,
     twitterUsername: `@EsoEsComoToders`,
     siteUrl: `https://esoescomotodo.com/`,
