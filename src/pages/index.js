@@ -5,7 +5,8 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Inicio" keywords="podcast humor spotify,podcast de humor spotify,podcast spotify humor,podcast ivoox humor,podcast de humor ivoox,podcast humor ivoox,mejores podcast spotify humor,podcast entretenimiento,podcast de entretenimiento,podcast de humor 2022,podcast humor 2022,mejores podcast comedia,podcast para reir" />
+    <Seo title="Inicio"
+      keywords="podcast humor spotify,podcast de humor spotify,podcast spotify humor,podcast ivoox humor,podcast de humor ivoox,podcast humor ivoox,mejores podcast spotify humor,podcast entretenimiento,podcast de entretenimiento,podcast de humor 2022,podcast humor 2022,mejores podcast comedia,podcast para reir" />
 
     <div className="main__disclaimer">
       <p>En septiembre se vienen cositas</p>
