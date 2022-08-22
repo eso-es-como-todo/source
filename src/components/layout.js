@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
                   <StaticImage
                     src="../images/ivoox.png"
                     formats={["auto", "webp", "png"]}
-                    alt="Eso es como todo en iVoox" />
+                    alt="Eso es como todo, podcast de humor en iVoox" />
                 </a>
               </li>
               <li>
@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
                   <StaticImage
                     src="../images/spotify.png"
                     formats={["auto", "webp", "png"]}
-                    alt="Eso es como todo en Spotify" />
+                    alt="Eso es como todo, podcast de entretenimiento en Spotify" />
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ const Layout = ({ children }) => {
                   <StaticImage
                     src="../images/youtube.png"
                     formats={["auto", "webp", "png"]}
-                    alt="Eso es como todo en YouTube" />
+                    alt="Eso es como todo, podcast para reír en YouTube" />
                 </a>
               </li>
             </ul>
