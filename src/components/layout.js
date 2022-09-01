@@ -13,7 +13,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Header from "./header"
 
 import "normalize.css";
-import "./layout.css"
+import "../assets/styles/layout.css";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
                   title="Eso es como todo en iVoox"
                   aria-label="Eso es como todo en iVoox">
                   <StaticImage
-                    src="../images/ivoox.png"
+                    src="../assets/images/ivoox.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast de humor en iVoox" />
                 </a>
@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
                   title="Eso es como todo en Spotify"
                   aria-label="Eso es como todo en Spotify">
                   <StaticImage
-                    src="../images/spotify.png"
+                    src="../assets/images/spotify.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast de entretenimiento en Spotify" />
                 </a>
@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
                   title="Eso es como todo en YouTube"
                   aria-label="Eso es como todo en YouTube">
                   <StaticImage
-                    src="../images/youtube.png"
+                    src="../assets/images/youtube.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast para reír en YouTube" />
                 </a>

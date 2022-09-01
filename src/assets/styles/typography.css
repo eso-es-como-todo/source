@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "RockoFLF";
+    src: url("../fonts/RockoFLF.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RockoFLF";
+    src: url("../fonts/RockoFLF-Bold.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "RockoFLF";
+    src: url("../fonts/RockoUltraFLF.woff2");
+    font-weight: 900;
+}
