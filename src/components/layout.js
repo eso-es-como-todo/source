@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
 
         <footer className="footer">
           <nav className="footer__listenUs">
-            <h1 className="footer__title">Escuchanos en</h1>
+            <h1 className="footer__title">Escúchanos en</h1>
             <ul className="footer__links">
               <li>
                 <a href="https://www.ivoox.com/escuchar-eso-es-como-todo_nq_1350840_1.html"
