@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 import Header from "./header"
 
@@ -40,7 +41,8 @@ const Layout = ({ children }) => {
             <h1 className="footer__title">Escúchanos en</h1>
             <ul className="footer__links">
               <li>
-                <a href="https://www.ivoox.com/escuchar-eso-es-como-todo_nq_1350840_1.html"
+                <OutboundLink
+                  href="https://www.ivoox.com/escuchar-eso-es-como-todo_nq_1350840_1.html?utm_source=site&utm_medium=web&utm_content=footer"
                   rel="me"
                   title="Eso es como todo en iVoox"
                   aria-label="Eso es como todo en iVoox">
@@ -48,10 +50,11 @@ const Layout = ({ children }) => {
                     src="../assets/images/ivoox.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast de humor en iVoox" />
-                </a>
+                </OutboundLink>
               </li>
               <li>
-                <a href="https://open.spotify.com/show/7KdIzvC8bKAD4MCo2dlu2O"
+                <OutboundLink
+                  href="https://open.spotify.com/show/7KdIzvC8bKAD4MCo2dlu2O?utm_source=site&utm_medium=web&utm_content=footer"
                   rel="me"
                   title="Eso es como todo en Spotify"
                   aria-label="Eso es como todo en Spotify">
@@ -59,10 +62,11 @@ const Layout = ({ children }) => {
                     src="../assets/images/spotify.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast de entretenimiento en Spotify" />
-                </a>
+                </OutboundLink>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCvL-YC95Oh7Gu-WrOynq3zA"
+                <OutboundLink
+                  href="https://www.youtube.com/channel/UCvL-YC95Oh7Gu-WrOynq3zA?utm_source=site&utm_medium=web&utm_content=footer"
                   rel="me"
                   title="Eso es como todo en YouTube"
                   aria-label="Eso es como todo en YouTube">
@@ -70,18 +74,19 @@ const Layout = ({ children }) => {
                     src="../assets/images/youtube.png"
                     formats={["auto", "webp", "png"]}
                     alt="Eso es como todo, podcast para reír en YouTube" />
-                </a>
+                </OutboundLink>
               </li>
             </ul>
           </nav>
 
           <div className="footer__twitter">
-            <a href="https://twitter.com/EsoEsComoToders"
+            <OutboundLink
+              href="https://twitter.com/EsoEsComoToders?utm_source=site&utm_medium=web&utm_content=footer"
               rel="me"
               title="Twitter de Eso es como todo"
               aria-label="Twitter de Eso es como todo">
               <span className="footer__twitterName">EsoEsComoToders</span>
-            </a>
+            </OutboundLink>
           </div>
         </footer>
       </div>
