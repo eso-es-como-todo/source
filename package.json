@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Daniel Calderón <daniel.calderon.portillo@gmail.com>",
   "dependencies": {
-    "@fontsource/dangrek": "^4.5.10",
     "gatsby": "^4.19.2",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-image": "^2.19.0",

@@ -13,7 +13,6 @@ import { StaticImage } from "gatsby-plugin-image"
 import Header from "./header"
 
 import "normalize.css";
-import "@fontsource/dangrek/400.css";
 import "./layout.css"
 
 const Layout = ({ children }) => {
