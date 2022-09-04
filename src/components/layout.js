@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
             <ul className="footer__links">
               <li>
                 <OutboundLink
-                  href="https://www.ivoox.com/escuchar-eso-es-como-todo_nq_1350840_1.html?utm_source=site&utm_medium=web&utm_content=footer"
+                  href="https://www.ivoox.com/podcast-eso-es-como-todo_sq_f11622856_1.html?utm_source=site&utm_medium=web&utm_content=footer"
                   rel="me"
                   title="Eso es como todo en iVoox"
                   aria-label="Eso es como todo en iVoox">
